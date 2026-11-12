@@ -12,7 +12,7 @@ export const generateWaLink = (customMessage = '') => {
   const cleanNumber = String(rawNumber).replace(/\D/g, '');
 
   const defaultGreeting =
-    'Halo CetakWoi, saya ingin berkonsultasi mengenai kebutuhan cetak & produksi perusahaan kami.';
+    'Halo PrintingGo, saya ingin berkonsultasi mengenai kebutuhan cetak & produksi perusahaan kami.';
 
   const messageText = customMessage.trim() ? customMessage : defaultGreeting;
   const encodedText = encodeURIComponent(messageText);

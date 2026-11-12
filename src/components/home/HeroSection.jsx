@@ -12,7 +12,7 @@ export const HeroSection = () => {
   const shouldReduceMotion = useReducedMotion();
 
   const discussUrl = generateWaLink(
-    'Halo CetakWoi, saya ingin konsultasi kebutuhan cetak dus kemasan / materi promosi untuk bisnis kami.'
+    'Halo PrintingGo, saya ingin konsultasi kebutuhan cetak dus kemasan / materi promosi untuk bisnis kami.'
   );
 
   const containerVariants = {
@@ -99,7 +99,7 @@ export const HeroSection = () => {
             {/* Background Factory / Production Photo */}
             <img
               src="/images/1.png"
-              alt="Pabrik CetakWoi di Kawasan Industri Pulogadung"
+              alt="Pabrik PrintingGo di Kawasan Industri Pulogadung"
               className="absolute inset-0 w-full h-full object-cover object-center filter brightness-[0.92] contrast-[1.02] transition-transform duration-700 ease-out group-hover:scale-[1.02]"
               loading="eager"
             />

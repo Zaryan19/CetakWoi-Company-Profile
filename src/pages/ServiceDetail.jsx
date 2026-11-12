@@ -35,7 +35,7 @@ export const ServiceDetail = () => {
   }
 
   const quoteUrl = generateWaLink(
-    `Halo CetakWoi, saya membaca detail layanan ${service.title} di website. Saya ingin berkonsultasi mengenai spesifikasi, pilihan bahan, dan estimasi biaya cetak untuk usaha kami.`
+    `Halo PrintingGo, saya membaca detail layanan ${service.title} di website. Saya ingin berkonsultasi mengenai spesifikasi, pilihan bahan, dan estimasi biaya cetak untuk usaha kami.`
   );
 
   return (

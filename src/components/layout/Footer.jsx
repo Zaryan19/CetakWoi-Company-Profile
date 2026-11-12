@@ -10,7 +10,7 @@ import { generateWaLink } from '../../utils/whatsapp';
  */
 export const Footer = () => {
   const currentYear = new Date().getFullYear();
-  const waUrl = generateWaLink('Halo CetakWoi, saya ingin konsultasi mengenai kebutuhan cetak perusahaan kami.');
+  const waUrl = generateWaLink('Halo PrintingGo, saya ingin konsultasi mengenai kebutuhan cetak perusahaan kami.');
 
   return (
     <footer className="w-full bg-[#F4F4F5] border-t border-[#E4E4E7] text-[#1A1A1A]">
@@ -23,7 +23,7 @@ export const Footer = () => {
           <div className="lg:col-span-5 space-y-6">
             <Link to="/" className="inline-flex items-baseline gap-2.5">
               <span className="text-2xl font-bold tracking-[-0.03em] text-[#1A1A1A]">
-                CetakWoi<span className="text-[#114576]">.</span>
+                PrintingGo<span className="text-[#114576]">.</span>
               </span>
               <span className="text-[10px] font-mono tracking-widest uppercase text-[#52525B]">
                 / PERCETAKAN BISNIS
@@ -99,7 +99,7 @@ export const Footer = () => {
 
         {/* Bottom Sub-footer */}
         <div className="mt-16 pt-8 border-t border-[#E4E4E7] flex flex-col sm:flex-row items-center justify-between gap-4 text-xs font-light text-[#52525B]">
-          <p>© {currentYear} CetakWoi. Percetakan Berkualitas untuk Usaha &amp; Perusahaan.</p>
+          <p>© {currentYear} PrintingGo. Percetakan Berkualitas untuk Usaha &amp; Perusahaan.</p>
           <div className="flex items-center gap-6">
             <span>Garansi Warna &amp; Kerapian Hasil Cetak</span>
             <a

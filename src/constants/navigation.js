@@ -16,12 +16,12 @@ export const SERVICE_CATEGORIES = [
 ];
 
 export const COMPANY_INFO = {
-  name: 'CetakWoi',
+  name: 'PrintingGo',
   tagline: 'Percetakan & Desain Kemasan Profesional untuk Bisnis Anda',
   address: 'Kawasan Industri Pulogadung, Jl. Pulo Ayang No. 12, Jakarta Timur 13930',
   city: 'Jakarta Timur, DKI Jakarta',
   phone: '+62 21 555-0199',
-  email: 'business@cetakwoi.com',
+  email: 'business@printinggo.com',
   workingHours: 'Senin - Jumat: 08:30 - 17:30 WIB | Sabtu: 08:30 - 13:00 WIB',
   operatingArea: 'Melayani area Jabodetabek & pengiriman ke seluruh Indonesia',
 };

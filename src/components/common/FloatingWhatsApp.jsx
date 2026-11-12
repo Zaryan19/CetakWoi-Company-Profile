@@ -7,7 +7,7 @@ import { generateWaLink } from '../../utils/whatsapp';
  * Fixed to bottom-right across all pages for direct B2B consultation.
  */
 export const FloatingWhatsApp = ({
-  customMessage = 'Halo CetakWoi, saya ingin berkonsultasi mengenai kebutuhan cetak & packaging perusahaan kami.',
+  customMessage = 'Halo PrintingGo, saya ingin berkonsultasi mengenai kebutuhan cetak & packaging perusahaan kami.',
 }) => {
   const [showTooltip, setShowTooltip] = useState(false);
   const waUrl = generateWaLink(customMessage);
@@ -38,7 +38,7 @@ export const FloatingWhatsApp = ({
         rel="noopener noreferrer"
         onMouseEnter={() => setShowTooltip(true)}
         className="group relative flex items-center justify-center w-14 h-14 bg-[#25D366] text-white rounded-full shadow-md hover:scale-105 active:scale-95 transition-transform duration-200 focus:outline-none focus:ring-2 focus:ring-[#1A1A1A] focus:ring-offset-2 focus:ring-offset-white"
-        aria-label="Chat WhatsApp dengan tim CetakWoi"
+        aria-label="Chat WhatsApp dengan tim PrintingGo"
       >
         <MessageCircle className="w-7 h-7 fill-current" />
         

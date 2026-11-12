@@ -61,7 +61,7 @@ export const WhyUsSection = () => (
           id="whyus-heading"
           className="text-3xl sm:text-4xl font-bold tracking-tight text-[#1A1A1A]"
         >
-          Mengapa Banyak Bisnis Memilih CetakWoi?
+          Mengapa Banyak Bisnis Memilih PrintingGo?
         </h2>
         <p className="text-sm font-light text-[#52525B] leading-relaxed">
           Bukan sekadar tukang cetak — kami adalah mitra kerja yang membantu usaha Anda tampil profesional dengan kemasan dan materi promosi berkualitas tinggi.

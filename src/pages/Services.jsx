@@ -44,7 +44,7 @@ export const Services = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
             {SERVICES_DATA.map((service, index) => {
               const quoteUrl = generateWaLink(
-                `Halo CetakWoi, saya ingin tanya harga dan konsultasi mengenai layanan ${service.title}.`
+                `Halo PrintingGo, saya ingin tanya harga dan konsultasi mengenai layanan ${service.title}.`
               );
 
               return (
@@ -131,7 +131,7 @@ export const Services = () => {
           </p>
           <div className="pt-2 flex justify-center">
             <a
-              href={generateWaLink('Halo CetakWoi, saya ingin tanya cetak pesanan khusus di luar daftar layanan umum.')}
+              href={generateWaLink('Halo PrintingGo, saya ingin tanya cetak pesanan khusus di luar daftar layanan umum.')}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-6 py-3.5 bg-[#1A1A1A] text-white text-sm font-semibold rounded-[4px] hover:bg-black transition-colors"

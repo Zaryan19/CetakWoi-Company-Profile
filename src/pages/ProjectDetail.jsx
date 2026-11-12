@@ -34,7 +34,7 @@ export const ProjectDetail = () => {
   }
 
   const quoteUrl = generateWaLink(
-    `Halo CetakWoi, saya membaca studi kasus proyek "${project.title}" (${project.client}). Kami memiliki kebutuhan serupa dan ingin mendiskusikan kemungkinan kerja sama cetak.`
+    `Halo PrintingGo, saya membaca studi kasus proyek "${project.title}" (${project.client}). Kami memiliki kebutuhan serupa dan ingin mendiskusikan kemungkinan kerja sama cetak.`
   );
 
   return (
@@ -97,7 +97,7 @@ export const ProjectDetail = () => {
             {/* Solution */}
             <div className="p-8 bg-white border border-[#1A1A1A] rounded-[4px] space-y-4">
               <span className="text-xs font-mono uppercase tracking-widest text-[#114576] block font-semibold">
-                SOLUSI DARI CETAKWOI
+                SOLUSI DARI PRINTINGGO
               </span>
               <h2 className="text-xl sm:text-2xl font-bold text-[#1A1A1A]">
                 Langkah Eksekusi Kami

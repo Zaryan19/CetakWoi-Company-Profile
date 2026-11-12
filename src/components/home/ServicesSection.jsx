@@ -48,7 +48,7 @@ export const ServicesSection = () => {
             const indexStr = String(index + 1).padStart(2, '0');
             const isHovered = hoveredIndex === index;
             const quoteUrl = generateWaLink(
-              `Halo CetakWoi, saya ingin tanya harga dan spesifikasi untuk layanan ${service.title}.`
+              `Halo PrintingGo, saya ingin tanya harga dan spesifikasi untuk layanan ${service.title}.`
             );
 
             return (

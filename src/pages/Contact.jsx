@@ -33,7 +33,7 @@ export const Contact = () => {
     const specs = inquiry.specs.trim() || '[Catatan / Ukuran]';
     const deadline = inquiry.deadline.trim() || '[Tanggal / Kapan Selesai]';
 
-    return `Halo CetakWoi, saya dari *${company}*.\n\nSaya ingin menanyakan estimasi biaya dan ketersediaan untuk cetak:\n📦 *Jenis Produk:* ${product}\n🔢 *Perkiraan Jumlah:* ${qty}\n📋 *Catatan / Ukuran:* ${specs}\n📅 *Target Selesai:* ${deadline}\n\nMohon bantu informasikan rekomendasi bahan terbaik dan estimasi harganya. Terima kasih.`;
+    return `Halo PrintingGo, saya dari *${company}*.\n\nSaya ingin menanyakan estimasi biaya dan ketersediaan untuk cetak:\n📦 *Jenis Produk:* ${product}\n🔢 *Perkiraan Jumlah:* ${qty}\n📋 *Catatan / Ukuran:* ${specs}\n📅 *Target Selesai:* ${deadline}\n\nMohon bantu informasikan rekomendasi bahan terbaik dan estimasi harganya. Terima kasih.`;
   };
 
   const handleSendWhatsApp = (e) => {
@@ -173,7 +173,7 @@ export const Contact = () => {
                 className="w-full min-h-[48px] py-4 bg-[#1A1A1A] text-white text-sm font-semibold rounded-[4px] hover:bg-black active:bg-neutral-800 transition-colors flex items-center justify-center gap-2"
               >
                 <Send className="w-4 h-4 text-emerald-400" />
-                <span>Kirim Pesan ke WhatsApp Sales CetakWoi</span>
+                <span>Kirim Pesan ke WhatsApp Sales PrintingGo</span>
                 <ArrowUpRight className="w-4 h-4" />
               </button>
             </form>
@@ -275,7 +275,7 @@ export const Contact = () => {
             <div className="lg:col-span-7 bg-[#F4F4F5] border border-[#E4E4E7] rounded-[4px] p-4 flex flex-col justify-between">
               <div className="w-full h-[400px] rounded-[4px] overflow-hidden border border-[#E4E4E7]">
                 <iframe
-                  title="Peta Lokasi Pabrik CetakWoi di Kawasan Industri Pulogadung"
+                  title="Peta Lokasi Pabrik PrintingGo di Kawasan Industri Pulogadung"
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15865.819326265007!2d106.90226315!3d-6.1969246!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f4bce22896bb%3A0xa646274b7cb60086!2sPulogadung%20Industrial%20Estate!5e0!3m2!1sen!2sid!4v1700000000000!5m2!1sen!2sid"
                   width="100%"
                   height="100%"
@@ -286,7 +286,7 @@ export const Contact = () => {
                 ></iframe>
               </div>
               <div className="mt-3 flex items-center justify-between text-xs font-mono text-[#52525B]">
-                <span>PABRIK CETAKWOI — KAWASAN INDUSTRI PULOGADUNG</span>
+                <span>PABRIK PRINTINGGO — KAWASAN INDUSTRI PULOGADUNG</span>
                 <span>JAKARTA TIMUR</span>
               </div>
             </div>

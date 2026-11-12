@@ -81,7 +81,7 @@ export const ClientsSection = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 sm:gap-6">
           {filteredClients.map((client, index) => {
             const waInquiry = generateWaLink(
-              `Halo CetakWoi, saya tertarik dengan solusi produksi cetak seperti yang dikerjakan untuk ${client.name} (${client.scope}).`
+              `Halo PrintingGo, saya tertarik dengan solusi produksi cetak seperti yang dikerjakan untuk ${client.name} (${client.scope}).`
             );
 
             return (
@@ -167,7 +167,7 @@ export const ClientsSection = () => {
             * Seluruh referensi produksi diverifikasi di bawah klausul Non-Disclosure Agreement (NDA) klien korporat.
           </p>
           <a
-            href={generateWaLink('Halo CetakWoi, saya ingin menjadwalkan konsultasi proyek korporat dengan tim Account Executive Anda.')}
+            href={generateWaLink('Halo PrintingGo, saya ingin menjadwalkan konsultasi proyek korporat dengan tim Account Executive Anda.')}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-1 text-[#1A1A1A] font-semibold hover:underline"

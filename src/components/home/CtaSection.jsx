@@ -11,7 +11,7 @@ export const CtaSection = () => {
   const shouldReduceMotion = useReducedMotion();
 
   const discussUrl = generateWaLink(
-    'Halo CetakWoi, saya ingin konsultasi kebutuhan cetak untuk perusahaan/usaha kami. Boleh minta informasi harga dan contoh bahannya?'
+    'Halo PrintingGo, saya ingin konsultasi kebutuhan cetak untuk perusahaan/usaha kami. Boleh minta informasi harga dan contoh bahannya?'
   );
 
   return (
@@ -59,8 +59,8 @@ export const CtaSection = () => {
             <span className="hidden sm:inline">•</span>
             <span>RESPON CEPAT: SENIN - JUMAT 08:30 - 17:30 WIB</span>
             <span className="hidden sm:inline">•</span>
-            <a href="mailto:business@cetakwoi.com" className="hover:text-[#1A1A1A] transition-colors break-all">
-              BUSINESS@CETAKWOI.COM
+            <a href="mailto:business@printinggo.com" className="hover:text-[#1A1A1A] transition-colors break-all">
+              BUSINESS@PRINTINGGO.COM
             </a>
           </div>
         </motion.div>

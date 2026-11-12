@@ -28,7 +28,7 @@ export const Navbar = () => {
   }, [isOpen]);
 
   const quoteUrl = generateWaLink(
-    'Halo CetakWoi, saya ingin berkonsultasi mengenai kebutuhan cetak & produksi korporat.'
+    'Halo PrintingGo, saya ingin berkonsultasi mengenai kebutuhan cetak & produksi korporat.'
   );
 
   return (
@@ -40,13 +40,10 @@ export const Navbar = () => {
           <NavLink
             to="/"
             className="flex items-baseline gap-2.5 group focus:outline-none"
-            aria-label="CetakWoi Homepage"
+            aria-label="PrintingGo Homepage"
           >
             <span className="text-xl sm:text-2xl font-bold tracking-[-0.03em] text-[#1A1A1A]">
-              CetakWoi<span className="text-[#114576]">.</span>
-            </span>
-            <span className="hidden sm:inline-block text-[10px] font-mono tracking-widest uppercase text-[#52525B]">
-              / B2B
+              PrintingGo<span className="text-[#114576]">.</span>
             </span>
           </NavLink>
 

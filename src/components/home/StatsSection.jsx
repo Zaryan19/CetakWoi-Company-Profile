@@ -39,7 +39,7 @@ export const StatsSection = () => {
           {/* Left 4 Cols: Section Index */}
           <div className="lg:col-span-4">
             <span className="text-xs font-mono tracking-[0.15em] uppercase text-[#52525B] static lg:sticky lg:top-28 block">
-              / 02 — KENAPA CETAKWOI
+              / 02 — KENAPA PRINTINGGO
             </span>
           </div>
 
@@ -59,7 +59,7 @@ export const StatsSection = () => {
                 buku, dan spanduk Anda selesai dengan hasil rapi, warna tidak belang, dan selalu siap sebelum tanggal promosi dimulai.
               </h2>
               <p className="text-sm sm:text-base font-light text-[#52525B] leading-relaxed max-w-2xl">
-                Beroperasi langsung dari pabrik kami seluas 2.500 m² di Kawasan Industri Pulogadung, CetakWoi mendampingi Anda dari merapikan file gambar, memilih bahan yang paling awet dan hemat, mencetak dalam jumlah banyak, hingga mengirimkannya ke alamat kantor atau gudang Anda.
+                Beroperasi langsung dari pabrik kami seluas 2.500 m² di Kawasan Industri Pulogadung, PrintingGo mendampingi Anda dari merapikan file gambar, memilih bahan yang paling awet dan hemat, mencetak dalam jumlah banyak, hingga mengirimkannya ke alamat kantor atau gudang Anda.
               </p>
             </motion.div>
 

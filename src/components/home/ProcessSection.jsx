@@ -63,7 +63,7 @@ export const ProcessSection = () => {
             / 06 — ALUR PENGERJAAN
           </span>
           <h2 className="text-2xl sm:text-4xl lg:text-5xl font-bold tracking-[-0.03em] text-[#1A1A1A]">
-            6 Langkah Mudah Cetak di CetakWoi.
+            6 Langkah Mudah Cetak di PrintingGo.
           </h2>
           <p className="text-sm sm:text-base font-light text-[#52525B] mt-3 sm:mt-4 leading-relaxed max-w-xl">
             Proses kerja transparan dan jelas dari konsultasi awal hingga barang sampai di tempat Anda tanpa ribet.

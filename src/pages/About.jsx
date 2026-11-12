@@ -12,7 +12,7 @@ import { generateWaLink } from '../utils/whatsapp';
 export const About = () => {
   const shouldReduceMotion = useReducedMotion();
   const waUrl = generateWaLink(
-    'Halo CetakWoi, saya membaca profil perusahaan Anda dan ingin berkonsultasi mengenai kebutuhan cetak perusahaan kami.'
+    'Halo PrintingGo, saya membaca profil perusahaan Anda dan ingin berkonsultasi mengenai kebutuhan cetak perusahaan kami.'
   );
 
   const containerVariants = {
@@ -85,7 +85,7 @@ export const About = () => {
             </motion.h1>
 
             <motion.p variants={itemVariants} className="text-sm sm:text-base lg:text-lg font-light text-[#52525B] leading-relaxed max-w-2xl">
-              Didirikan sejak 2012 di Kawasan Industri Pulogadung, CetakWoi hadir sebagai solusi percetakan terpercaya bagi ratusan brand retail, restoran, dan perusahaan di seluruh Indonesia.
+              Didirikan sejak 2012 di Kawasan Industri Pulogadung, PrintingGo hadir sebagai solusi percetakan terpercaya bagi ratusan brand retail, restoran, dan perusahaan di seluruh Indonesia.
             </motion.p>
 
             <motion.div variants={itemVariants} className="pt-4 flex flex-wrap gap-4">
@@ -254,7 +254,7 @@ export const About = () => {
             <div className="group relative aspect-[16/10] bg-white border border-[#E4E4E7] rounded-[4px] overflow-hidden">
               <img
                 src="/images/41.png"
-                alt="Pabrik CetakWoi Pulogadung"
+                alt="Pabrik PrintingGo Pulogadung"
                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                 loading="lazy"
               />
@@ -272,7 +272,7 @@ export const About = () => {
             <div className="group relative aspect-[16/10] bg-white border border-[#E4E4E7] rounded-[4px] overflow-hidden">
               <img
                 src="/images/42.png"
-                alt="Tim Produksi dan Operator Ahli CetakWoi"
+                alt="Tim Produksi dan Operator Ahli PrintingGo"
                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                 loading="lazy"
               />
