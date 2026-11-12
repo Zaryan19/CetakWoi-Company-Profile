@@ -49,11 +49,6 @@ CetakWoi-CompanyProfile/
 │   ├── index.html              # HTML entry point & import Google Fonts
 │   ├── package.json            # Dependencies dan scripts
 │   └── tailwind.config.js      # Konfigurasi custom tema Tailwind
-├── DESIGN.md                   # Sistem desain editorial & aturan visual
-├── prd.md                      # Product Requirements Document
-├── architecture.md             # Dokumentasi arsitektur sistem
-├── rules.md                    # Standar penulisan kode (coding guidelines)
-└── todo.md                     # Tracker tugas pengembangan
 ```
 
 ---
